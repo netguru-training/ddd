@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import Button from 'components/Button';
+import Button from './Button';
 
 const UserRow = ({ user, onDeleteUserClick }) => (
   <tr className="user-row">
