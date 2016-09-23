@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/' => 'app#index'
   get '/admin' => 'app#admin'
   get '/counter' => 'app#counter'
+  get '/bash' => 'app#bash'
 end

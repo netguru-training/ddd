@@ -8,4 +8,7 @@ class AppController < ApplicationController
 
   def counter
   end
+
+  def bash
+  end
 end
