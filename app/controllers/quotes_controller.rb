@@ -1,4 +1,5 @@
 class QuotesController < ApplicationController
+  skip_before_action :verify_authenticity_token
   before_action :set_quote, only: [:show, :edit, :update, :destroy]
 
   # GET /quotes

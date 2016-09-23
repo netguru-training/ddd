@@ -10,5 +10,6 @@ class AppController < ApplicationController
   end
 
   def bash
+    @quotes = Quote.all
   end
 end
